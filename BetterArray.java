@@ -120,7 +120,7 @@ public class BetterArray<T>
                 throw new java.lang.ArrayIndexOutOfBoundsException();
             }
         }
-        else    // If the index is over the "length" then we need to extend the array
+        else    // If the index is over the "length"
         {
             // Need to extend the array
             int newLength = (int)(arr.length * 1.5);
@@ -135,6 +135,8 @@ public class BetterArray<T>
             
             arr[length] = s;
             length++;
+            
+            System.out.println("Hello My Name is Ryan Peters");
         }
     }
     // Delete given String at the given index and move Strings over to the left
